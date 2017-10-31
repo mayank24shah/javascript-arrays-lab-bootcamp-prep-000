@@ -13,9 +13,9 @@ function destructivelyRemoveLastKitten(){
 }
 function destructivelyRemoveFirstKitten(){
   kittens.shift()
-  return kittens 
+  return kittens
 }
 function appendKitten(name)(
-  var x = [kittens,...name]
+  var x = [kittens, ...name]
   retrun x 
 )
